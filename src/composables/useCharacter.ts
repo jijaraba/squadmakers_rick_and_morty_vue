@@ -1,6 +1,6 @@
 import { reactive, toRefs } from 'vue';
 import {ICharacter, ICharacterResponse} from "../models/ICharacter.ts";
-import {CharacterSearchData, CharacterSearchDataFormGender, handleGetCharacters} from "../services/characters.ts";
+import {CharacterSearchData, handleGetCharacters} from "../services/characters.ts";
 
 export function useCharacter() {
   const state = reactive({

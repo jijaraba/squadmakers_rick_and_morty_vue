@@ -1,5 +1,5 @@
-import { api } from '@/plugins/axios';
-import { useNotify } from '@/composables/useNotify';
+import { api } from '../plugins/axios';
+import { useNotify } from '../composables/useNotify';
 
 interface DataRequest {
   url: string;

@@ -9,14 +9,14 @@ export enum CharacterSearchDataFormGender {
   Genderless = 'genderless',
 }
 
-interface ICharacterSearchData {
+interface CharacterSearchData {
   page: number;
   search: string;
   gender: CharacterSearchDataFormGender;
   characterIds?: string[];
 }
 
-export class CharacterSearchData implements ICharacterSearchData{
+export class CharacterSearchData{
   constructor(
       page: number,
       search: string,

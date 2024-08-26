@@ -26,8 +26,8 @@ interface ILocation {
 interface IInfo {
     count: number;
     pages: number;
-    next: ?string;
-    prev: ?string;
+    next?: string;
+    prev?: string;
 }
 
 export interface ICharacterResponse {

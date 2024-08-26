@@ -3,9 +3,9 @@ import {onMounted, ref} from 'vue'
 import home_header from '@/assets/images/home_header.png';
 import rick_and_morty from '@/assets/images/rick_and_morty_logo.png';
 import background_character from '@/assets/images/background_character.jpeg';
-import {useCharacter} from "@/composables/useCharacter.ts";
+import {useCharacter} from "../composables/useCharacter.ts";
 import {CharacterSearchData, CharacterSearchDataFormGender} from "../services/characters.ts";
-import {ICharacter} from "@/models/ICharacter.ts";
+import {ICharacter} from "../models/ICharacter.ts";
 
 
 const {characters, getCharacters, loadingCharacters} = useCharacter();

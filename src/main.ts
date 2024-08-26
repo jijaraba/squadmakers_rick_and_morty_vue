@@ -1,8 +1,8 @@
 import {createApp} from 'vue'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate';
 import RickCard from 'squadmakers-components'
-import pinia from "@/plugins/pinia.ts";
-import vuetify from "@/plugins/vuetify.ts";
+import pinia from "./plugins/pinia.ts";
+import vuetify from "./plugins/vuetify.ts";
 import router from "@/router";
 
 import App from './App.vue'
