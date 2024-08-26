@@ -6,4 +6,4 @@
 2. Ubicarlo al mismo nivel que este proyecto:
    - Carpeta principal
      - squadmakers_rick_and_morty_vue
-     - squadmakers_rick_and_morty_library_vue
+     - squadmakers-components
