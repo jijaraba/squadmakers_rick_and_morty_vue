@@ -1,0 +1,70 @@
+@import "variables";
+@import "reset";
+@import "mixins_responsive";
+
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  font: {
+    family: 'Montserrat', sans-serif;
+    size: 16px;
+  };
+}
+
+.lg {
+  font: {
+    family: 'Montserrat', sans-serif;
+    weight: 300;
+    size: 0.85em;
+    style: normal;
+  }
+}
+
+.text-small {
+  font: {
+    family: 'Montserrat', sans-serif;
+    size: 13px;
+    weight: 400;
+  }
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.text-medium {
+  font: {
+    family: 'Montserrat', sans-serif;
+    size: 15px;
+    weight: 500;
+  }
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.text-large {
+  font: {
+    family: 'Montserrat', sans-serif;
+    size: 16px;
+    weight: 400;
+  }
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: center;
+
+}
+
+.primary-button {
+  font: {
+    family: 'Montserrat', sans-serif;
+    size: 13px;
+    weight: 400;
+  }
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 60px;
+}

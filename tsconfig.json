@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "types": [
+      "node",
+      "vitest/globals",
+      "vite/client",
+      "vue"
+    ],
+    "lib": [
+      "ES2020",
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "vite.config.ts",
+    "vuetify.config.ts",
+    "vitest.config.ts",
+    "vitest.setup.ts",
+    "global.d.ts",
+    "vitest.workspace.ts",
+    "node_modules/.pnpm/unplugin-auto-import@0.16.7/node_modules/unplugin-auto-import/auto-imports.d.ts",
+    "server.js"
+  ],
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
